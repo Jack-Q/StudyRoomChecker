@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2015 Jack Q (QiaoBo#outlook.com)
+  ~ >> Created at 2015 - 1 - 27 .
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/text"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:gravity="center"
+    android:textSize="17sp"
+    android:minWidth="100dp"
+    android:clickable="true"
+    android:background="@drawable/main_class_default_background"
+    android:minHeight="32dp"
+    >
+</TextView>

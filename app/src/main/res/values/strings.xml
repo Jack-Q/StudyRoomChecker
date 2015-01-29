@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2015 Jack Q (QiaoBo#outlook.com)
+  ~ >> Created at 2015 - 1 - 27 .
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<resources>
+    <string name="app_name">Study Room Checker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">loading … …</string>
+    <string name="app_icon_description">App Icon</string>
+    <string name="download">Download</string>
+    <string name="string_continue">Continue</string>
+    <string name="loading_exit">Exit</string>
+    <string name="loading_first_time_tip">Internet access required for the first run. \n Sure to connect Internet? Or just leave this app.</string>
+    <string name="loading_no_internet_tip">Cannot access to the Internet, please check your Internet connection and retry or leave this app.</string>
+    <string name="loading_err_network_error">Network error</string>
+    <string name="refresh">Refresh</string>
+    <string name="help">help</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_data_management">Data Management</string>
+    <string name="preference_manage_data">Manage Data</string>
+    <string name="preference_manage_data_summary">Download and update data from http://e.tju.edu.cn/. Internet connection is required.</string>
+    <string name="preference_update_list_summary">Get the latest version of week list and building list. For consistency, all of the cached data of study room will be deleted by performing this action. Internet connection is required.</string>
+    <string name="preference_update_list">Update list</string>
+    <string name="cancel">Cancel</string>
+    <string name="preference_reset_data_tip">This action will set a flag that this app has not initialized yet, which means all the data cached will be deleted the next time you start this app.\nSure to continue?</string>
+    <string name="last_cached">"Last cached: "</string>
+    <string name="have_not_downloaded_yet">Haven\'t downloaded yet.</string>
+    <string name="string_return">Return</string>
+    <string name="download_detail_format">Downloading %1$d of %2$d items.\n\nTotal Pages:\t %3$d \nPages Cached:\t %4$d \nPages Remain:\t %5$d \n\nCurrent Task:\t %6$s \nTasks Remain:\t %7$d \n\nTotal Per Cents:\t %8$d %%</string>
+    <string name="download_detail_null">No task currently.</string>
+    <string name="help_real_help">Hello World!… …\n\n If you need help, just try it by yourself. Then write your experience down and replace this page, that is \"HELP\"!</string>
+    <string name="main_no_cache_tip">No data of this week.\nPlease cache them at Data Management page.</string>
+</resources>

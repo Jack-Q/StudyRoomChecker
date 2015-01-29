@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2015 Jack Q (QiaoBo#outlook.com)
+  ~ >> Created at 2015 - 1 - 28 .
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<shape
+    android:shape="ring"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <size
+        android:height="20dp"
+        android:width="20dp" />
+    <solid android:color="#0cdeff" />
+    <stroke
+        android:color="#cabcdd"
+        android:width="2dp" />
+</shape>
