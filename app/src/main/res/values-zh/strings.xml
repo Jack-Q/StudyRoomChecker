@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2015 Jack Q (QiaoBo#outlook.com)
+  ~ >> Created at 2015 - 2 - 10 .
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<resources>
+    <string name="app_name">Study Room Checker</string>
+    <string name="action_settings">设置</string>
+    <string name="app_icon_description">应用图标</string>
+    <string name="cancel">取消</string>
+    <string name="copyright_jsoup">该应用使用了下列第三方代码库\n\nJsoup\n The Jsoup are distributed under the open source MIT license as described below.\n The MIT License\n Copyright © 2009 - 2014 Jonathan Hedley (jonathan@hedley.net)\n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n \n</string>
+    <string name="download">下载</string>
+    <string name="download_detail_format">正在下载第 %1$d 项，共 %2$d 项\n\n页数总计:\t %3$d \n已缓存页数:\t %4$d \n剩余页数:\t %5$d \n\n当前下载项目:\t %6$s \n当前项目剩余:\t %7$d \n\n总体完成比率:\t %8$d %%</string>
+    <string name="download_detail_null">当前无下载任务</string>
+    <string name="have_not_downloaded_yet">尚未下载</string>
+    <string name="hello_blank_fragment">空白片段</string>
+    <string name="hello_world">Hello World！</string>
+    <string name="help">帮助</string>
+    <string name="last_cached">上次缓存时间：</string>
+    <string name="loading">加载中……</string>
+    <string name="loading_err_network_error">网络错误</string>
+    <string name="loading_exit">退出</string>
+    <string name="loading_first_time_tip">首次加载应用时需要网络连接。\n 选择连接网络继续加载</string>
+    <string name="loading_no_internet_tip">无法连接到网络，请检查网络连接然后重试或</string>
+    <string name="title_activity_help">帮助</string>
+    <string name="title_activity_data_management">数据管理</string>
+    <string name="string_return">返回</string>
+    <string name="string_continue">继续</string>
+    <string name="refresh">刷新</string>
+    <string name="preference_update_list_summary">获取最新的星期列表和教学楼列表。为保证数据的一致性，执行该操作将会删除已缓存的自习室空闲情况数据。执行本操作需要网络连接。</string>
+    <string name="preference_update_list">更新列表</string>
+    <string name="preference_reset_data_tip">该操作将会设置此应用尚未初始化的标识，这意味着下次进入此英语时将执行初始化操作。\n确认继续吗？</string>
+    <string name="preference_manage_data_summary">从 http://e.tju.edu.cn/ 获取数据更新。该操作需要网络连接。</string>
+    <string name="preference_manage_data">管理数据</string>
+    <string name="main_no_cache_tip">本地尚无该周的数据\n请在数据管理页面进行缓存。</string>
+    <string name="download_detail">下载进度详情</string>
+    <string name="downloading">下载中</string>
+    <string name="pending">等待中</string>
+    <string name="update">更新</string>
+    <string name="downloading_exit_tip">请等待下载完成后再退出当前页面。</string>
+    <string name="tip">提示</string>
+</resources>

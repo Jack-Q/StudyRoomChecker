@@ -9,6 +9,5 @@
     </item>
     <item android:state_expanded="false">
         <color android:color="#0000" />
-
     </item>
 </selector>

@@ -15,4 +15,13 @@ The tool used for this app is Android Studio.
 ## Library(s) used
 Following library used in this app:
 
-* Jsoup: Java HTML Parser  [[Lic]](/lib/Jsoup_license.txt)
+* Jsoup: Java HTML Parser  [[Lic]](/lib_lic/Jsoup_license.txt)
+
+## Update logs
+* 0.1.1 Preview r2
+   1. Add Chinese translation
+   2. Optimize drawable resource and layout
+   3. Optimize encoding (Specify to 'GBK')
+
+* 0.1 Preview r1
+   First commit

@@ -71,9 +71,9 @@ public class DataManagementActivity extends ActionBarActivity {
         if (downloader_isRunning) {
 
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("Tip");
+            builder.setTitle(getString(R.string.tip));
             builder.setIconAttribute(android.R.attr.dialogMessage);
-            builder.setMessage("Please wait until the downloading process finished!");
+            builder.setMessage(getString(R.string.downloading_exit_tip));
 
             builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                 @Override
@@ -261,7 +261,7 @@ public class DataManagementActivity extends ActionBarActivity {
                     if (taskList.get(currentTask).status == 0) {
                         sendStartDownload(currentTask);
                         Task task = taskList.get(currentTask);
-                        String url = ConstResource.WEB_BASE_URL;
+                        String url = ConstResource.WEB_BASE_URL();
                         url += "&" + ConstResource.WEB_DATA_QUERY_PARA;
                         url += "&" + ConstResource.WEB_WEEK_PARA + "=" + task.weekCode;
                         for (Map<String, Object> building : buildingList) {
@@ -272,7 +272,7 @@ public class DataManagementActivity extends ActionBarActivity {
                                 Elements rows = Jsoup.parse(new ByteArrayInputStream(Jsoup
                                                 .connect(curUrl).timeout(10000).execute()
                                                 .bodyAsBytes()), ConstResource.WEB_CHARSET,
-                                        ConstResource.WEB_BASE_URL)
+                                        ConstResource.WEB_BASE_URL())
                                         .select("table[width=90%]")
                                         .select("table[cellpadding=2]") //Get table elements
                                         .first()                        //Get table
@@ -432,7 +432,7 @@ public class DataManagementActivity extends ActionBarActivity {
                     break;
                 case WAIT_TO_UPDATE:
                     holder.weekButton.setEnabled(true);
-                    holder.weekButton.setText("UPDATE");
+                    holder.weekButton.setText(R.string.update);
                     holder.weekButton.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
@@ -445,12 +445,12 @@ public class DataManagementActivity extends ActionBarActivity {
                     break;
                 case WAIT_IN_QUEUE:
                     holder.weekButton.setEnabled(false);
-                    holder.weekButton.setText("Pending");
+                    holder.weekButton.setText(R.string.pending);
                     holder.weekButton.setOnClickListener(null);
                     break;
                 case DOWNLOADING:
                     holder.weekButton.setEnabled(false);
-                    holder.weekButton.setText("Downloading");
+                    holder.weekButton.setText(R.string.downloading);
                     holder.weekButton.setOnClickListener(null);
                     break;
             }

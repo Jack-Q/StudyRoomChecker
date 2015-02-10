@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="20dp"
-                android:text="Download Detail"
+                android:text="@string/download_detail"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textSize="30sp" />
 

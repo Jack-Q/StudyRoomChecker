@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2015 Jack Q (QiaoBo#outlook.com)
+  ~ >> Created at 2015 - 2 - 10 .
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<resources>
+    <string-array name="className">
+        <item>上午-1</item>
+        <item>上午-2</item>
+        <item>下午-1</item>
+        <item>下午-2</item>
+        <item>晚上-1</item>
+        <item>晚上-2</item>
+    </string-array>
+
+    <string-array name="weekday">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+</resources>

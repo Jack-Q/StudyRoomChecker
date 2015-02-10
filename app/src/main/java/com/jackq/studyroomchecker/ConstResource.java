@@ -7,6 +7,8 @@
 
 package com.jackq.studyroomchecker;
 
+import java.util.UUID;
+
 /**
  * Created by Jack on 2015/1/20.
  */
@@ -18,8 +20,12 @@ public class ConstResource {
 
     // URL Sample:http://e.tju.edu.cn/Education/schedule.do?to
     //     do=displayWeekBuilding&schekind=6&week=5&building_no=1048
-    public static final String WEB_CHARSET = "GB2312";
-    public static final String WEB_BASE_URL = "http://e.tju.edu.cn/Education/schedule.do?schekind=6";
+    public static final String WEB_CHARSET = "GBK";
+    private static final String WEB_STATIC_BASE_URL = "http://e.tju.edu.cn/Education/schedule.do?schekind=6";
+    public static String WEB_BASE_URL(){
+
+        return WEB_STATIC_BASE_URL + "&rnd="+ UUID.randomUUID().toString().replace("-","");
+    }
     public static final String WEB_DATA_QUERY_PARA = "todo=displayWeekBuilding";
     public static final String WEB_WEEK_PARA = "week";
     public static final String WEB_BUILDING_PARA = "building_no";

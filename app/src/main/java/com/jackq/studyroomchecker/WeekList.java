@@ -14,6 +14,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -67,13 +68,14 @@ public class WeekList {
 
 
     public boolean webInitialize() throws IOException {
+        ByteArrayInputStream inputStream = new ByteArrayInputStream(Jsoup
+                .connect(ConstResource.WEB_BASE_URL()).timeout(10000).execute()
+                .bodyAsBytes());
         Document document = Jsoup.parse(
-                new java.io.ByteArrayInputStream(Jsoup
-                .connect(ConstResource.WEB_BASE_URL).timeout(10000).execute()
-                .bodyAsBytes()), ConstResource.WEB_CHARSET, ConstResource.WEB_BASE_URL);
+                inputStream, ConstResource.WEB_CHARSET, ConstResource.WEB_BASE_URL());
         //Get all <option> elements in <select> element whose name attribute is week
         Elements weekOptions = document.select("select[name=week]").first().children();
-        for(Element ele :weekOptions){
+        for (Element ele : weekOptions) {
             weekList.add(ele.text(), Integer.decode(ele.attr("value")));
         }
         Log.d(ConstResource.APP_DEBUG_TAG, "Size of weeks" + Integer.toString(weekList.size()));

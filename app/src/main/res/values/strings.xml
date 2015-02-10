@@ -31,6 +31,12 @@
     <string name="string_return">Return</string>
     <string name="download_detail_format">Downloading %1$d of %2$d items.\n\nTotal Pages:\t %3$d \nPages Cached:\t %4$d \nPages Remain:\t %5$d \n\nCurrent Task:\t %6$s \nTasks Remain:\t %7$d \n\nTotal Per Cents:\t %8$d %%</string>
     <string name="download_detail_null">No task currently.</string>
-    <string name="help_real_help">Hello World!… …\n\n If you need help, just try it by yourself. Then write your experience down and replace this page, that is \"HELP\"!</string>
+    <string name="help_real_help" translatable="false">Hello World!… …\n\n If you need help, just try it by yourself. Then write your experience down and replace this page, that is \"HELP\"!</string>
     <string name="main_no_cache_tip">No data of this week.\nPlease cache them at Data Management page.</string>
+    <string name="download_detail">Download Detail</string>
+    <string name="update">UPDATE</string>
+    <string name="pending">Pending</string>
+    <string name="downloading">Downloading</string>
+    <string name="tip">Tip</string>
+    <string name="downloading_exit_tip">Please wait until the downloading process finished!</string>
 </resources>
